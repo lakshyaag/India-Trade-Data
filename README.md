@@ -4,6 +4,7 @@ A web scraper written in Python to gather trade data for India across commoditie
 
 ## Dataset
 The data is in tidy format, meaning there is one observation per category.
+
 |Column|Definition|
 |--|--|
 |HSCode|Harmonized System (HS2) Code|
@@ -27,5 +28,11 @@ The data is in tidy format, meaning there is one observation per category.
 
 ## Source
 The data is sourced from [Department of Commerce, Government of India.](https://commerce-app.gov.in/eidb/Default.asp)
+
+## TO-DO
+
+ - [ ] Create functions for import data
+ - [ ] Try to speed up the scraping process
+
 ### Note
 Because of the multitude of commodities and countries, the datasets are extremely large in terms of row number.
