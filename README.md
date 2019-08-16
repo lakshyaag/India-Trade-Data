@@ -2,6 +2,8 @@
 
 A web scraper written in Python to gather trade data for India across commodities and countries
 
+Access the dataset on [Kaggle](https://www.kaggle.com/lakshyaag/india-trade-data)
+
 ## Dataset
 The data is in tidy format, meaning there is one observation per category.
 
