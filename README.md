@@ -31,7 +31,6 @@ The data is sourced from [Department of Commerce, Government of India.](https://
 
 ## TO-DO
 
- - [ ] Create functions for import data
  - [ ] Try to speed up the scraping process
 
 ### Note
