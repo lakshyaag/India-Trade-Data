@@ -5,6 +5,7 @@ A web scraper written in Python to gather trade data for India across commoditie
 Access the dataset on [Kaggle](https://www.kaggle.com/lakshyaag/india-trade-data)
 
 ## Dataset
+
 The data is in tidy format, meaning there is one observation per category.
 
 |Column|Definition|
@@ -16,24 +17,21 @@ The data is in tidy format, meaning there is one observation per category.
 |Value|Value of export (in million US$)
 
 ## How to use
-1. Make sure the requirements are satisfied (namely, `selenium`, `chromedriver` and `pandas`)
+
+1. Make sure the requirements are satisfied (`pip install -r requirements.txt`)
 2. Download the `.ipynb` file
-3. Change the URL to either *export* or *import*, as desired
-4. Run the appropriate function (it will take time because of multiple iterations)
+3. Run the *export* or *import* cells, as desired
+4. The required file will be saved to disk.
 
 ---
+
 ## Tools used
+
 1. Python 3
 2. Selenium
 3. ChromeDriver
 4. Pandas
 
 ## Source
-The data is sourced from [Department of Commerce, Government of India.](https://commerce-app.gov.in/eidb/Default.asp)
 
-## TO-DO
-
- - [ ] Try to speed up the scraping process
-
-### Note
-Because of the multitude of commodities and countries, the datasets are extremely large in terms of row number.
+The data is sourced from [Ministry of Commerce and Industry, Government of India.](https://tradestat.commerce.gov.in/eidb/default.asp)
