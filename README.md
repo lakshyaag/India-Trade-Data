@@ -23,15 +23,6 @@ The data is in tidy format, meaning there is one observation per category.
 3. Run the *export* or *import* cells, as desired
 4. The required file will be saved to disk.
 
----
-
-## Tools used
-
-1. Python 3
-2. Selenium
-3. ChromeDriver
-4. Pandas
-
 ## Source
 
 The data is sourced from [Ministry of Commerce and Industry, Government of India.](https://tradestat.commerce.gov.in/eidb/default.asp)
